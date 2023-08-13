@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape android:shape="rectangle">
+
+            <solid android:color="#4CAF50"/>
+
+            <!--<stroke android:color="#044706"
+                android:width="2dp"
+                android:dashGap="1dp"
+                android:dashWidth="7dp"/>-->
+
+            <corners android:topRightRadius="21dp"
+                android:bottomLeftRadius="21dp"/>
+
+            <!--Size is used when button is given wrap_content for both width and height in the activity.-->
+            <!--In that case the size provided here is used.-->
+            <size android:width="100dp"
+                android:height="100dp"/>
+
+            <gradient
+                android:angle="315"
+                android:startColor="#CDDC39"
+                android:centerColor="#4CAF50"
+                android:endColor="#2196F3"
+                android:type="linear"
+                android:gradientRadius="80dp"
+                />
+        </shape>
+
+    </item>
+
+</selector>
